@@ -12,8 +12,14 @@ pip install ...
 
 ```
 
-## Usage
 
+As Pytorch allow us to train the model using GPU, which is much faster than the current CPU performance. To start, you will need the GPU version of Pytorch, and please make sure that your computer has a higher end NVIDIA GPU that is CUDA enabled.
+
+
+
+## Usage
+To reproduce the model, the first Jupyter Notebook file that should be run is: "CNN_model_training"
+After installing all the required packages, you can simply hit the Kernel -> Restart and Run All
 
 ```python
 
