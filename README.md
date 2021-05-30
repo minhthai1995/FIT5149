@@ -10,7 +10,15 @@ To run the program, some libraries are required.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install some python packages: torch, pandas, numpy, scikit-learn, pathlib, matplotlib, multiprocess, tsfresh, tqdm
 
 ```bash
-pip install ...
+pip install torch
+pip install pandas
+pip install numpy
+pip install scikit-learn
+pip install pathlib
+pip install mathplotlib
+pip install multiprocess
+pip install tsfresh
+pip install tqdm
 
 ```
 In case you're using Conda or Miniconda, here are sample steps to create an environment (My computer is running Ubuntu OS, core i9, and RTX 3080 GPU, thus you might need some minor changes to get it running on your computer). 
