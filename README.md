@@ -11,9 +11,16 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install some py
 pip install ...
 
 ```
+In case you're using Conda or Miniconda, here are sample steps to create an environment (My computer is running Ubuntu OS, core i9, and RTX 3080 GPU, thus you might need some minor changes to get it running on your computer)
+```
+conda create --name group1ass2 python=3.8.6 pytorch=1.7.1 cudatoolkit=11.0.221 cudatoolkit-dev cmake=3.18.2 cudnn --channel pytorch --channel=conda-forge
+conda activate group1ass2
+conda install pandas, numpy
+conda install -c anaconda scikit-learn, pathlib
+conda install -c conda-forge matplotlib, multiprocess, tsfresh, tqdm
+```
 
-
-As Pytorch allow us to train the model using GPU, which is much faster than the current CPU performance. To start, you will need the GPU version of Pytorch, and please make sure that your computer has a higher end NVIDIA GPU that is CUDA enabled.
+As Pytorch allow us to train the model using GPU, which is much faster than the current CPU performance. To start, you will need the GPU version of Pytorch, and please make sure that your computer has a higher end NVIDIA GPU that is CUDA enabled, other wise the model will be trained on CPU, we haven't tried to train it on CPU before but pretty sure it will take at least a day.
 
 
 
