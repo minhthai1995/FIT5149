@@ -2,6 +2,8 @@
 # Introduction 
 This work proposed a deep learning model that is capable of detecting the working condition (On - Off) of five appliances, including air conditioner, electric vehicle charger, oven, cloth washer and dryer. 
 
+The first part of the project is EDA, you can find our work at the FIT5149_EDA_FINAL_VERSION.ipynb notebook. Then, the best model that we have found will be presented below
+
 ## Installation
 To run the program, some libraries are required.
 
