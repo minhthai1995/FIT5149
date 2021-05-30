@@ -26,5 +26,6 @@ After installing all the required packages, you can simply hit the Kernel -> Res
 ```
 
 ## Contribution
-If you want to make any contribution to our current work, pull requests are welcome.
+If you want to make any contribution to our current work, pull requests are welcome. If you want any further discussion, you can send us an email via: mngu0072@student.monash.edu
+
 
