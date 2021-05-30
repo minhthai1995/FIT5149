@@ -5,7 +5,7 @@ This work proposed a deep learning model that is capable of detecting the workin
 ## Installation
 To run the program, some libraries are required.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install some python packages: pandas, numpy, scikit-learn, pathlib, matplotlib, multiprocess, tsfresh, tqdm
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install some python packages: torch, pandas, numpy, scikit-learn, pathlib, matplotlib, multiprocess, tsfresh, tqdm
 
 ```bash
 pip install ...
