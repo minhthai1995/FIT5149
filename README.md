@@ -28,9 +28,11 @@ As Pytorch allow us to train the model using GPU, which is much faster than the 
 To reproduce the model, the first Jupyter Notebook file that should be run is: "CNN_model_training"
 After installing all the required packages, you can simply hit the "Kernel -> Restart and Run All"
 
-The model would take roughly 3 hours to finish the training phase. The final model will be saved in the "trained_model" directory
+If you want to save 2 hour on preprocessing data on your computer (which is heavy and might crash your computer if it not strong enough), go to this link 
 
-For the inference and testing part, you can open the "CNN_model_intererence" notebook, and click "Kernel -> Restart and Run All". The output would be generated as a csv file.
+The model would take roughly 4 hours to finish the training phase (1 hour for preprocessing, 3 hours for training). The final models (1 with best accuracy, 1 with best F1 score, and one after finish training) will be saved in the "trained_model" directory
+
+For the inference and testing part, you can open the "CNN_model_intererence" notebook, and click "Kernel -> Restart and Run All". It will take around 1h to preprocess and run, the output would be generated as a csv file.
 
 ## Contribution
 If you want to make any contribution to our current work, pull requests are welcome. If you want any further discussion, you can send us an email via: mngu0072@student.monash.edu
